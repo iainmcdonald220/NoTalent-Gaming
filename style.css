@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(68, 76, 83);
+}
+
+.container {
+    position: relative;
+  }
+
+.center{
+    margin: 30vh;
+}
+
+
+h1{
+    color: rgb(218, 160, 74);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2{
+    color: rgb(192, 154, 97);
+    font-size: 30px;
+}
+
+p{
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.image-size{
+    width: 75px;
+    height: 75px;
+}
