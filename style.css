@@ -1,10 +1,9 @@
 body{
-    background-color: rgb(68, 76, 83);
+    background-color: rgb(29, 29, 29);
+    margin: 30vh;
+    margin-left: 50ch;
+    text-align: center;
 }
-
-.container {
-    position: relative;
-  }
 
 .center{
     margin: 30vh;
@@ -12,14 +11,15 @@ body{
 
 
 h1{
-    color: rgb(218, 160, 74);
+    color: rgb(146, 94, 22);
     font-weight: bold;
     font-size: 60px;
 }
 
 h2{
-    color: rgb(192, 154, 97);
+    color: rgb(126, 81, 13);
     font-size: 30px;
+    font-weight: bold;
 }
 
 p{
@@ -27,7 +27,16 @@ p{
     font-weight: bold;
 }
 
-.image-size{
+.icon:hover .image {
+    opacity: 0.3;
+    border-color: ghostwhite;
+  }
+
+.image{
     width: 75px;
     height: 75px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: .5s ease;
 }
+
