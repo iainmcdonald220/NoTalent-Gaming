@@ -11,13 +11,13 @@ body{
 
 
 h1{
-    color: rgb(146, 94, 22);
+    color: rgb(160, 102, 21);
     font-weight: bold;
     font-size: 60px;
 }
 
 h2{
-    color: rgb(126, 81, 13);
+    color: rgb(160, 102, 21);
     font-size: 30px;
     font-weight: bold;
 }
@@ -27,16 +27,18 @@ p{
     font-weight: bold;
 }
 
+
 .icon:hover .image {
-    opacity: 0.3;
-    border-color: ghostwhite;
+    opacity: 0.2;
+    
+   
   }
 
 .image{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     opacity: 1;
-    transition: .5s ease;
+    transition: 0.3s ease;
 }
 
